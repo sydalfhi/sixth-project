@@ -1,0 +1,19 @@
+/* fonta set */
+@font-face {
+    font-family: 'viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+
+/* end fonta set */
+
+/* tombol set */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* end tombol set */

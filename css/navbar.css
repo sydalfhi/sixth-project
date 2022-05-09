@@ -1,0 +1,17 @@
+/* navigasi */
+.navbar {
+    position: relative;
+    z-index: 4;
+}
+
+.navbar-brand {
+    font-family: 'viga';
+    font-size: 25px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+/* end navigasi */

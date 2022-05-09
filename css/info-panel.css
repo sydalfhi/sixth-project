@@ -1,0 +1,33 @@
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: #acacaa;
+    font-weight: 200;
+}
+
+.info-panel .row .col-lg {
+    margin-bottom: 15px;
+}

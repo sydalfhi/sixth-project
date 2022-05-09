@@ -1,0 +1,68 @@
+/* MODE SESKTOP */
+
+@media screen and (min-width:992px) {
+
+    /* navgasi */
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #105bc3;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        border-radius: 1px;
+        margin-bottom: -8px;
+    }
+
+    /* end navgasi */
+
+    /* jumbotron */
+    .jumbotron {
+        margin-top: -75px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    /* end jumbotron */
+
+    /* info panel */
+
+    .info-panel .row .col-lg {
+        margin-bottom: 0;
+    }
+
+    /* end info panel */
+
+    /* working space */
+
+    .workingSpace {
+        text-align: justify;
+    }
+
+    /* end working space */
+
+    /* testimonial */
+    .testimonial {
+        margin-top: 100px;
+    }
+
+    .testimonial h5 {
+        font-size: 32px;
+    }
+
+    /* end testimonial */
+}
